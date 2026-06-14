@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Fancy Font Generator</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+textarea{
+    width:100%;
+    min-height:120px;
+}
+
+.result{
+    border:1px solid #ddd;
+    padding:15px;
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.generated{
+    margin-top:10px;
+    font-size:22px;
+}
+
+button{
+    padding:10px;
+}
+
+</style>
+
+</head>
+
+<body data-page="home">
+
+<h1>Fancy Font Generator</h1>
+
+<textarea
+    id="input"
+    placeholder="Type text..."
+></textarea>
+
+<div id="results"></div>
+
+<p style="margin-top:20px">
+
+<a href="Bold-fonts.html">
+Bold Fonts →
+</a>
+
+</p>
+
+<script src="app.js"></script>
+
+</body>
+</html>
